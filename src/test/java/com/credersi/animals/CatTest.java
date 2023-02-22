@@ -187,7 +187,7 @@ public class CatTest {
 		cat.runs();
 		i++;
 		}
-		assertEquals(cat.isAlive(), true);
+		assertTrue(cat.isAlive());
 	}
 	
 	@Test
